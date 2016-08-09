@@ -51,7 +51,7 @@ a:hover {
     border-top-right-radius: 15px;
 }
 .td1 {
-    background-color:rgba(100, 100, 100, 0.45);
+    background-color: rgba(100, 100, 100, 0.45);
     height:35px;
     border: 1px transparent;
     font-family: "Dancing Script";
@@ -59,12 +59,24 @@ a:hover {
     color: rgb(240, 240, 240);
 }
 .td2 {
-    background-color:rgba(70, 70, 70, 0.45);
+    background-color: rgba(70, 70, 70, 0.45);
     height:35px;
     border: 1px transparent;
     font-family: "Dancing Script";
     font-size: 15px;
     color: rgb(240, 240, 240);
+}
+tr:hover [class^=td1] {
+    background-color: rgba(30, 30, 30, 0.55);
+    -moz-transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+}
+tr:hover [class^=td2] {
+    background-color: rgba(0, 0, 0, 0.55);
+    -moz-transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
 }
 .td1:first-of-type, .td2:first-of-type {
     padding-left: 3px;
