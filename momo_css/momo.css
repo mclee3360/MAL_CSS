@@ -4,7 +4,7 @@ body {
     background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNSE1pOUJNWWpQQkU);
+    background-image: url(http://i.imgur.com/0FWlHtV.jpg);
     background-size: cover;
     font-family: "Indie Flower", cursive;
     font-size: 17px;
@@ -116,9 +116,9 @@ a:hover {
 }
 /*Filters*/
 #list_surround .status_selected, #list_surround .status_not_selected {
-    /*All of Them*/
+    /*All of Them and Watching/Reading*/
     background-attachment: center;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNeTgwc2lXdmgxa00/);
+    background-image: url(http://i.imgur.com/n9F1k0c.jpg);
     background-repeat: no-repeat;
     position: absolute;
     margin-bottom: 30px;
@@ -134,27 +134,27 @@ a:hover {
 #list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
     /*Completed*/
     left: 290px;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNNzVkM3k0cmFGc3c/);
+    background-image: url(http://i.imgur.com/9EaHVA0.jpg);
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
     /*On Hold*/
     left: 435px;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNRG5jakM1NVFBOGc/);
+    background-image: url(http://i.imgur.com/ZDSpW47.jpg);
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     /*Dropped*/
     left: 580px;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNQnJpLVlRUXNzWUk/);
+    background-image: url(http://i.imgur.com/YIpplVf.jpg);
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     /*Plan to Watch/Read*/
     left: 725px;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNTGFLYlYyLVlRUWc/);
+    background-image: url(http://i.imgur.com/acvWQzI.jpg);
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     /*All*/
     left: 0px;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNaUR5bVpiUTBPQnM/);
+    background-image: url(http://i.imgur.com/22x2NMW.jpg);
 }
 .status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
     color:transparent;
@@ -172,7 +172,7 @@ a:hover {
 }
 /*Headers for Each Table*/
 .header_cw {
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNSExoWXJpalFnU28/);
+    background-image: url(http://i.imgur.com/kSoBgG3.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     height: 200px;
@@ -180,7 +180,7 @@ a:hover {
     color: transparent;
 }
 .header_completed {
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNaGxYaXpSRHZKd0U/);
+    background-image: url(http://i.imgur.com/FBbp5ea.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     height: 200px;
@@ -188,7 +188,7 @@ a:hover {
     color: transparent;
 }
 .header_onhold {
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNYTFWOVNHSHVyc28/);
+    background-image: url(http://i.imgur.com/gQJq0nN.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     height: 200px;
@@ -196,7 +196,7 @@ a:hover {
     color: transparent;
 }
 .header_dropped {
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNNW90SXVwa18yS0E/);
+    background-image: url(http://i.imgur.com/nPjvQxE.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     height: 200px;
@@ -204,7 +204,7 @@ a:hover {
     color: transparent;
 }
 .header_ptw {
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNR2xVVlZHZE5QN2M/);
+    background-image: url(http://i.imgur.com/yWdTtgO.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     height: 200px;
@@ -246,7 +246,7 @@ For fixing errors, try to replace the '-200%' after "100% { background-position"
     content: '';
     width: 2915px;
     height: 100%;
-    background-image: url("https://googledrive.com/host/0BwcpT3PPoPuNYUNNR0pjUGZHdVE/");
+    background-image: url("http://i.imgur.com/rAzSGbu.jpg");
     -moz-animation: scroll 50s linear infinite;
     -webkit-animation: scroll 50s linear infinite;
 }
