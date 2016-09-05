@@ -1,0 +1,324 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+    background-image: url(http://i.imgur.com/q64Z2Dj.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#list_surround {
+    background-image: url(http://i.imgur.com/77ExSVg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: absolute;
+    margin-top: 70px;
+    width: 1080px;
+    height: 350px;
+    left: 36%;
+    border: 5px solid;
+    border-color: rgb(105, 28, 149);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+a {
+    font-family: "Dancing Script";
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+a:hover {
+    color: black;
+}
+.table_header {
+    padding-bottom: 3px;
+    padding-top: 13px;
+    background-color: rgba(105, 28, 149, .65);
+    border: 1px transparent;
+}
+.table_header:first-of-type {
+    border-top-left-radius: 15px;
+    font-family: "Dancing Script";
+    color: rgb(240, 240, 240);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.table_header:nth-of-type(2) {
+    padding-left: 20px;
+    padding-bottom: -15px;
+}
+.table_header:last-of-type {
+    border-top-right-radius: 15px;
+}
+.td1 {
+    background-color: rgba(185, 53, 213, 0.65);
+    height:35px;
+    border: 1px transparent;
+    font-family: "Dancing Script";
+    font-size: 15px;
+    color: rgb(240, 240, 240);
+}
+.td2 {
+    background-color: rgba(140, 24, 183, 0.65);
+    height:35px;
+    border: 1px transparent;
+    font-family: "Dancing Script";
+    font-size: 15px;
+    color: rgb(240, 240, 240);
+}
+tr:hover [class^=td1] {
+    background-color: rgba(123, 67, 135, 0.75);
+    -moz-transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+}
+tr:hover [class^=td2] {
+    background-color: rgba(88, 31, 109, 0.75);
+    -moz-transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+}
+.td1:first-of-type, .td2:first-of-type {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+    padding-left: 5px;
+    font-size: 20px;
+}
+.td1:nth-of-type(3) > a, .td2:nth-of-type(3) > a {
+    font-size: 15px;
+}
+.td1:nth-of-type(5) > span > a, .td2:nth-of-type(5) > span > a {
+    font-size: 15px;
+}
+small {
+    padding-left: 5px;
+    color: rgb(228, 210, 235);
+}
+small > a {
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+}
+.category_totals {
+    background-color: rgba(105, 28, 149, .65);
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: rgb(240, 240, 240);
+    font-family: "Dancing Script";
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#grand_totals {
+    background-color: rgba(105, 28, 149, .65);
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 22px;
+    color: rgb(240, 240, 240);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 7px;
+    padding-bottom: 13px;
+}
+#copyright {
+    background-color: rgba(105, 28, 149, .65);
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 18px;
+    color: rgb(240, 240, 240);
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#list_surround > table:first-of-type {
+    background-color: rgb(105, 28, 149);
+    width: 1090px;
+    margin-top: 331px;
+    margin-left: -5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.header_cw {
+    position: relative;
+    background-image: url(http://i.imgur.com/3BYdQwj.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: -10px;
+    color: transparent;
+    margin-bottom: -20px;
+    z-index: 10 !important;
+    pointer-events: none;
+}
+.header_completed {
+    position: relative;
+    background-image: url(http://i.imgur.com/ycdbihY.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: -10px;
+    color: transparent;
+    margin-bottom: -20px;
+    z-index: 10 !important;
+    pointer-events: none;
+}
+.header_onhold {
+    position: relative;
+    background-image: url(http://i.imgur.com/M0PFH9f.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: -10px;
+    color: transparent;
+    margin-bottom: -20px;
+    z-index: 10 !important;
+    pointer-events: none;
+}
+.header_dropped {
+    position: relative;
+    background-image: url(http://i.imgur.com/ZjvDm7Z.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: -10px;
+    color: transparent;
+    margin-bottom: -20px;
+    z-index: 10 !important;
+    pointer-events: none;
+}
+.header_ptw {
+    position: relative;
+    background-image: url(http://i.imgur.com/URZJffL.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+    margin-top: -10px;
+    color: transparent;
+    margin-bottom: -20px;
+    z-index: 10 !important;
+    pointer-events: none;
+}
+/*
+Navi Links
+    CREDITS: Shishio-kun
+*/
+/* TOP BAR SETTINGS
+the numbers in parenthesis change the color and opacity of the bar. Get a color number easily from this page:
+http://www.css3maker.com/css-3-rgba.html
+
+Change position to absolute to make the bar not scroll with the page.
+Change the background image out with the url in parenthesis.
+*/
+
+#mal\_control\_strip {
+    background-color: rgba(1,1,1,.5) !important;
+    background-image: url('http://i.imgur.com/hzPJrg4.png') !important;
+    position:fixed;
+}
+/*
+OTHER CODES
+*/
+#mal\_control\_strip {
+    z-index: 11;
+    background-position: bottom !important;
+    top: -15px;
+    height: 1px !important;
+}
+#mal\_control\_strip di\v {display:inline}
+#mal\_cs\_pic img {
+    height: 24px !important;
+    width: auto !important
+}
+#mal\_cs\_listinfo {
+    width: 26% !important;
+    height: 0 !important;
+    padding-bottom: 18px !important;
+    padding-top: 27px !important;
+    background: ;
+    position: absolute;
+    top:-5px;
+    border-right-color: rgba(0,0,0,0.8) !important;
+}
+#mal\_cs\_listinfo div:first-of-type:before {content:'Logged in as '}
+#mal\_cs\_listinfo div:first-of-type a {
+    text-decoration: none;
+}
+#mal\_cs\_listinfo div:first-of-type a:hover {
+    color: rgb(150, 150, 150);
+}
+#mal\_cs\_listinfo div:last-of-type a {
+    text-decoration: none;
+    top: 5px;
+    left: 23.9%;
+    display: block;
+    position: fixed;
+}
+#mal\_cs\_listinfo div:last-of-type a:hover {
+    color: rgb(150, 150, 150);
+}
+#mal\_cs\_links {
+    width: 92px !important;
+    height: 0 !important;
+    padding-bottom: 20px !important;
+    padding-top: 27px !important;
+    left: 28%;
+    top: -7px;
+    position: absolute;
+    border-right-color: rgba(0,0,0,0.8) !important;
+}
+#mal\_cs\_links a {
+    background-image: url('http://i.imgur.com/PAEW4Q8.png') !important;
+    width:16px;
+    height:16px;
+    content:none;
+    display: inline-block !important;
+    color: transparent !important;
+    letter-spacing: -1ex;
+    font-size:xx-small;
+}
+#mal\_cs\_links div:first-of-type:after {content: '\a0'}
+#mal\_cs\_links div:first-of-type a:first-of-type {background-position: 0px 0px}
+#mal\_cs\_links div:first-of-type a:last-of-type {background-position: -16px 0px}
+#mal\_cs\_links div:last-of-type a:first-of-type {background-position:-32px 0px}
+#mal\_cs\_links div:last-of-type a:last-of-type {background-position:-48px 0px}
+#mal\_cs\_otherlinks strong{
+    width: 25% !important;
+    height: 0 !important;
+    padding-bottom: 20px !important;
+    padding-top: 27px !important;
+    left:28%;
+    margin-left: 130px;
+    top: -5px;
+    position: absolute;
+    border-right-color: rgba(0,0,0,0.8) !important;
+}
+#mal\_cs\_otherlinks div:last-of-type {
+    float:right;
+    padding-right:150px;
+    margin-top: 19px;
+}
+#mal\_cs\_otherlinks div:last-of-type a {
+    text-decoration: none;
+}
+#mal\_cs\_otherlinks div:last-of-type a:hover {
+    color: rgb(150, 150, 150);
+}
+#mal\_cs\_otherlinks div:first-of-type {
+    float:left;
+}
+#mal\_cs\_otherlinks a {
+    text-decoration: none;
+}
+#mal\_cs\_powered img {display:none}
+#searchBox {
+    margin-top: 15px !important;
+    width: 135px !important
+}
+#mal\_control\_strip img {
+    margin-top: 15px !important;
+}
