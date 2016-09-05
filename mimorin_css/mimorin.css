@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
 body {
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNSGRVT0Vjb01kT28/);
+    background-image: url(http://i.imgur.com/NLdbe7f.jpg);
     background-position: center 70%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 #list_surround {
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNOEVjQ1cwSF84UjQ/);
+    background-image: url(http://i.imgur.com/d9Tkl1h.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     position: absolute;
@@ -145,7 +145,7 @@ small > a {
 }
 .header_cw {
     position: relative;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNSFl3RF9LUUhGVHc/);
+    background-image: url(http://i.imgur.com/H1AiPM6.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 280px;
@@ -157,7 +157,7 @@ small > a {
 }
 .header_completed {
     position: relative;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNUzNMUEg1M0s0VEU/);
+    background-image: url(http://i.imgur.com/s3nbsem.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 280px;
@@ -169,7 +169,7 @@ small > a {
 }
 .header_onhold {
     position: relative;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNTkc0QWhNMFZtV00/);
+    background-image: url(http://i.imgur.com/QD1Cavt.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 280px;
@@ -181,7 +181,7 @@ small > a {
 }
 .header_dropped {
     position: relative;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNVmxrQ3F6Um51aW8/);
+    background-image: url(http://i.imgur.com/20MzAch.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 280px;
@@ -193,7 +193,7 @@ small > a {
 }
 .header_ptw {
     position: relative;
-    background-image: url(https://googledrive.com/host/0BwcpT3PPoPuNVkJ5QlJLOG5JVHc/);
+    background-image: url(http://i.imgur.com/d96mCGs.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 280px;
